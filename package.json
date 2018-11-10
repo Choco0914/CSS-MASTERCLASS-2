@@ -1,0 +1,29 @@
+{
+  "name": "css-masterclass-2",
+  "version": "1.0.0",
+  "description": "CSS Masterclas course (Firebox, Grid, PostCSS, CSSNext)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choco0914/CSS-MASTERCLASS-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Choco0914/CSS-MASTERCLASS-2/issues"
+  },
+  "homepage": "https://github.com/Choco0914/CSS-MASTERCLASS-2#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
