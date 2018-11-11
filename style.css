@@ -73,3 +73,26 @@ h1{
     color: color-mod(black alpha(54%));
   }
 } */
+
+/* 
+
+Nesting Rules
+
+main {
+  background-color: blue;
+
+  & section {
+    background-color: red;
+    width: 500px;
+    & li {
+      background-color: yellow;
+      width: 400px;
+      & a {
+        color: black;
+        &:hover {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+} */
