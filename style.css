@@ -35,8 +35,8 @@ Custom
 :--headers {
   color: #8e44ad;
 } */
-/*
-Custom Media & Media Query Ranges
+
+/* Custom Media & Media Query Ranges
  
 @custom-media --ipad-size (450px <= width <= 850px);
 
@@ -46,6 +46,30 @@ Custom Media & Media Query Ranges
   }
 } */
 
+/* Gray
+
 h1 {
-  color: color-mod(#f1c40f alpha(50%));
+  colr: gray(50);
 }
+
+System-ui
+
+h1 {
+  font-family: system-ui;
+}
+
+Color mod
+
+h1{
+  color: color-mod(#f1c40f alpha(50%));
+} */
+
+/* main {
+  background-color: blue;
+
+  & section {
+    background-color: red;
+    width: 40px;
+    color: color-mod(black alpha(54%));
+  }
+} */
